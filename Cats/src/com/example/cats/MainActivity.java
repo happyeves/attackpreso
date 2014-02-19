@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         TalkToServer myAsync = new TalkToServer();
         System.out.println("Test test test");
+        myAsync.execute();
     }
 
 
