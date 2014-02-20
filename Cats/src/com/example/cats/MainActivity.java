@@ -23,7 +23,9 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TalkToServer myAsync = new TalkToServer();
-        System.out.println("Test test test");
+        System.out.println("********Test test test");
+        myAsync.execute();
+        System.out.println("^^^^^^^^Called execute to server.");
     }
 
 
